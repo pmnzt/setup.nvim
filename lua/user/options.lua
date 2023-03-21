@@ -7,7 +7,8 @@ local options = {
 	scrolloff = 8,
 	wrap = false,
 	hlsearch = false,
-	tabstop = 4
+	tabstop = 4,
+	guifont = "Consolas:h20"
 }
 
 for k, v in pairs(options) do
